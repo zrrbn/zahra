@@ -62,7 +62,6 @@ $height2:270px;
                 flex-direction: column;
                 text-align: center;
                 padding: 0 2rem;
-                cursor: pointer;
                 @include fix-height($height1);
                 &:before {
                     position: absolute;
@@ -120,6 +119,9 @@ $height2:270px;
                 h6 {
                     max-width: 75%;
                     margin: 0 auto;
+                }
+                * {
+                    cursor: pointer;
                 }
             }
             #{$self}__skils__item--1:before,

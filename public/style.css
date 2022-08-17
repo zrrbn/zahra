@@ -8335,7 +8335,7 @@ html {
   align-items: center;
   justify-content: end;
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
   .body__content .body__inner .body__header .body__header__links {
     justify-content: center;
   }

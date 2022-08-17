@@ -8579,7 +8579,6 @@ html {
   flex-direction: column;
   text-align: center;
   padding: 0 2rem;
-  cursor: pointer;
   min-height: 250px;
   height: 250px;
   max-height: 250px;
@@ -8649,6 +8648,10 @@ html {
 .body__content .body__inner .body__skils__item--7 h6 {
   max-width: 75%;
   margin: 0 auto;
+}
+.body__content .body__inner .body__skils__item--5 *,
+.body__content .body__inner .body__skils__item--7 * {
+  cursor: pointer;
 }
 .body__content .body__inner .body__skils__item--1:before,
 .body__content .body__inner .body__skils__item--3:before,

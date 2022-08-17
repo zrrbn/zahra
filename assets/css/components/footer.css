@@ -8496,7 +8496,7 @@ html {
 .footer__socials div {
   text-align: center;
 }
-.footer__socials i {
+.footer__socials a {
   -webkit-margin-end: 1.5rem;
           margin-inline-end: 1.5rem;
   margin-top: 0.5rem;
@@ -8505,11 +8505,11 @@ html {
   cursor: pointer;
   color: var(--color5);
 }
-.footer__socials i:last-child {
+.footer__socials a:last-child {
   -webkit-margin-end: 0;
           margin-inline-end: 0;
 }
-.footer__socials i:hover {
+.footer__socials a:hover {
   color: var(--color3);
 }
 
